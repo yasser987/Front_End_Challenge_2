@@ -7,11 +7,11 @@
 body {
   font-family: "Karla", sans-serif;
   background-color: hsl(204, 43%, 93%);
-  min-height: 100vh;
 }
 .project {
   width: 85%;
   margin: 50px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 @media (min-width: 375px) {
   .project {
@@ -22,6 +22,8 @@ body {
   width: 100%;
   background-color: #fff;
   padding: 20px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
 }
 @media (min-width: 375px) {
   .project .top {
@@ -71,6 +73,7 @@ body {
   padding: 20px;
   background-color: hsl(179, 62%, 43%);
   color: white;
+  border-bottom-left-radius: 6px;
 }
 @media (min-width: 375px) {
   .project .bottom .subscription {
@@ -114,6 +117,7 @@ body {
   padding: 20px;
   color: white;
   background-color: hsl(179deg 62% 43% / 85%);
+  border-bottom-right-radius: 6px;
 }
 @media (min-width: 375px) {
   .project .bottom .why {
