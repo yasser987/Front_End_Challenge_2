@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+}
+.project {
+  width: 85%;
+  margin: 50px auto;
+}
+@media (min-width: 375px) {
+  .project {
+    width: 700px;
+  }
+}
+.project .top {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+@media (min-width: 375px) {
+  .project .top {
+    padding: 40px;
+  }
+}
+.project .top h2 {
+  color: hsl(179, 62%, 43%);
+  margin: 0 0 20px;
+}
+@media (min-width: 375px) {
+  .project .top h2 {
+    font-size: 28px;
+  }
+}
+.project .top P:first-of-type {
+  color: hsl(71, 73%, 54%);
+  font-size: 17px;
+  margin: 0 0 15px;
+  font-weight: bold;
+}
+@media (min-width: 375px) {
+  .project .top h2 {
+    font-size: 24px;
+  }
+}
+.project .top p:last-of-type {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.4;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+@media (min-width: 375px) {
+  .project .top p:last-of-type {
+    width: 90%;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+}
+@media (min-width: 375px) {
+  .project .bottom {
+    display: flex;
+  }
+}
+.project .bottom .subscription {
+  width: 100%;
+  padding: 20px;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+@media (min-width: 375px) {
+  .project .bottom .subscription {
+    padding: 40px;
+    flex: 1;
+  }
+}
+.project .bottom .subscription h3 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.project .bottom .subscription p:first-of-type span {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 8px;
+}
+.project .bottom .subscription p:first-of-type {
+  margin-bottom: 10px;
+  color: #eee;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.project .bottom .subscription p:last-of-type {
+  font-size: 14px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+.project .bottom .subscription button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: 2px 2px 25px -10px black;
+  cursor: pointer;
+}
+.project .bottom .why {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: hsl(179deg 62% 43% / 85%);
+}
+@media (min-width: 375px) {
+  .project .bottom .why {
+    flex: 1;
+    padding: 40px;
+  }
+}
+.project .bottom .why h3 {
+  margin-bottom: 15px;
+}
+.project .bottom .why p {
+  line-height: 1.5;
+  color: #eee;
+  font-size: 16px;
+}
